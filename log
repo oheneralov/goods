@@ -1,0 +1,53 @@
+2017-09-22 12:27:06,654 DEBUG  [main] Reading input data
+2017-09-22 12:29:57,993 DEBUG  [main] Reading input data
+2017-09-22 12:59:18,234 DEBUG  [main] Reading input data
+2017-09-22 12:59:18,271 DEBUG  [main] number of columns: 3
+2017-09-22 12:59:18,272 DEBUG  [main] data admin
+2017-09-22 12:59:18,273 DEBUG  [main] data rb085b
+2017-09-22 12:59:18,274 DEBUG  [main] data Control Panel - test - Administration
+2017-09-22 12:59:18,274 DEBUG  [main] number of columns: 3
+2017-09-22 12:59:18,274 DEBUG  [main] data admin2
+2017-09-22 12:59:18,275 DEBUG  [main] data rb085b
+2017-09-22 12:59:18,276 DEBUG  [main] data Control Panel - Error
+2017-09-22 12:59:18,280 DEBUG  [main] rows = 2, cols = 0
+2017-09-22 13:11:56,976 DEBUG  [main] Reading input data
+2017-09-22 13:11:57,009 DEBUG  [main] number of columns: 3
+2017-09-22 13:11:57,009 DEBUG  [main] data admin
+2017-09-22 13:11:57,009 DEBUG  [main] data rb085b
+2017-09-22 13:11:57,010 DEBUG  [main] data Control Panel - test - Administration
+2017-09-22 13:11:57,010 DEBUG  [main] number of columns: 3
+2017-09-22 13:11:57,010 DEBUG  [main] data admin2
+2017-09-22 13:11:57,010 DEBUG  [main] data rb085b
+2017-09-22 13:11:57,011 DEBUG  [main] data Control Panel - Error
+2017-09-22 13:17:07,771 DEBUG  [main] Reading input data
+2017-09-22 13:17:07,832 DEBUG  [main] number of columns: 3
+2017-09-22 13:17:07,833 DEBUG  [main] data admin
+2017-09-22 13:17:07,833 DEBUG  [main] data rb085b
+2017-09-22 13:17:07,833 DEBUG  [main] data Control Panel - test - Administration
+2017-09-22 13:17:07,833 DEBUG  [main] number of columns: 3
+2017-09-22 13:17:07,834 DEBUG  [main] data admin2
+2017-09-22 13:17:07,834 DEBUG  [main] data rb085b
+2017-09-22 13:17:07,834 DEBUG  [main] data test - Administration
+2017-09-22 13:21:26,678 DEBUG  [main] Reading input data
+2017-09-22 13:21:26,734 DEBUG  [main] number of columns: 3
+2017-09-22 13:21:26,736 DEBUG  [main] data admin
+2017-09-22 13:21:26,736 DEBUG  [main] data rb085b
+2017-09-22 13:21:26,737 DEBUG  [main] data Control Panel - test - Administration
+2017-09-22 13:21:26,737 DEBUG  [main] number of columns: 3
+2017-09-22 13:21:26,738 DEBUG  [main] data admin2
+2017-09-22 13:21:26,738 DEBUG  [main] data rb085b
+2017-09-22 13:21:26,738 DEBUG  [main] data test - Administration
+2017-09-22 13:44:11,093 DEBUG  [main] Reading input data
+2017-09-22 13:44:11,135 DEBUG  [main] number of columns: 3
+2017-09-22 13:44:11,135 DEBUG  [main] data admin2
+2017-09-22 13:44:11,136 DEBUG  [main] data rb085b
+2017-09-22 13:44:11,136 DEBUG  [main] data test - Administration
+2017-09-22 13:45:20,520 DEBUG  [main] Reading input data
+2017-09-22 13:45:20,558 DEBUG  [main] number of columns: 3
+2017-09-22 13:45:20,559 DEBUG  [main] data admin2
+2017-09-22 13:45:20,559 DEBUG  [main] data rb085b
+2017-09-22 13:45:20,559 DEBUG  [main] data test - Administration
+2017-09-22 13:45:20,560 DEBUG  [main] number of columns: 3
+2017-09-22 13:45:20,560 DEBUG  [main] data admin
+2017-09-22 13:45:20,560 DEBUG  [main] data rb085b
+2017-09-22 13:45:20,560 DEBUG  [main] data Control Panel - test - Administration

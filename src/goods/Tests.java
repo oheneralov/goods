@@ -19,6 +19,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Tests {
     private WebDriver driver;
@@ -26,28 +27,32 @@ public class Tests {
 
     @DataProvider
         public Object[][] testData() throws IOException {
-    	Object[][] data = null;
     	System.setProperty("log4j.configurationFile",
 				"C:\\alex\\training\\java\\goods\\configuration.xml");
     	Logger log = LogManager.getRootLogger();
+    	log.debug("Reading input data");
+    	ArrayList<String> alist = new ArrayList<String>();
+    	ArrayList<ArrayList<String>> alistOuter = new ArrayList<ArrayList<String>>();
     	
 
 		try {
 			int row = 0;
 			BufferedReader in = new BufferedReader(new FileReader("input.txt"));
-			data = new Object[in.lines().toArray().length][3];
 			String line;
 			
 			try {
 				while ((line = in.readLine()) != null) {
 					String[] lineData = line.split(",");
+					log.debug("number of columns: " + lineData.length);
 					
 					for (int i = 0; i < lineData.length; i++) {
-						data[row][i] = lineData[i];
 						log.debug("data " + lineData[i]);
+						alist.add(lineData[i]);
 
 					}
- 					row++;
+					alistOuter.add((ArrayList<String>) alist.clone());
+					alist.clear(); 
+ 					
 
 				}
 			} catch (IOException e) {
@@ -57,6 +62,20 @@ public class Tests {
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+		
+		int rows = alistOuter.size();
+		int cols = alistOuter.get(0).size();
+		if ((rows == 0) || (cols == 0)) {
+			log.debug(String.format("rows = %s, cols = %s", rows, cols));
+		}
+		
+		Object[][] data = new Object[rows][cols];
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < cols; j++) {
+				data[i][j] = alistOuter.get(i).get(j);
+			}
+			
 		}
 	
             return data;
@@ -85,6 +104,8 @@ public class Tests {
     	}
     	    WebDriverWait wait = new WebDriverWait(driver, 20);
     	    wait.until(ExpectedConditions.titleContains("Administration"));
+    	    WebDriverWait wait2 = new WebDriverWait(driver, 20);
+    	    wait2.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@tabindex='3'and @class='btn btn-primary btn-block btn-large login-button']")));
             WebElement heightField = driver.findElement(By.name("username"));
             heightField.clear();
             heightField.sendKeys(login);
