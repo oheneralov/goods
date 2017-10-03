@@ -6,7 +6,8 @@
       <class name="goods.Tests">
         <methods>
           <include name="setUp"/>
-          <include name="testAdministratorLogin" invocation-numbers="1"/>
+          <include name="testAdministratorLogin"/>
+          <include name="SetUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- goods.Tests -->

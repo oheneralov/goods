@@ -1,53 +1,16 @@
-2017-09-22 12:27:06,654 DEBUG  [main] Reading input data
-2017-09-22 12:29:57,993 DEBUG  [main] Reading input data
-2017-09-22 12:59:18,234 DEBUG  [main] Reading input data
-2017-09-22 12:59:18,271 DEBUG  [main] number of columns: 3
-2017-09-22 12:59:18,272 DEBUG  [main] data admin
-2017-09-22 12:59:18,273 DEBUG  [main] data rb085b
-2017-09-22 12:59:18,274 DEBUG  [main] data Control Panel - test - Administration
-2017-09-22 12:59:18,274 DEBUG  [main] number of columns: 3
-2017-09-22 12:59:18,274 DEBUG  [main] data admin2
-2017-09-22 12:59:18,275 DEBUG  [main] data rb085b
-2017-09-22 12:59:18,276 DEBUG  [main] data Control Panel - Error
-2017-09-22 12:59:18,280 DEBUG  [main] rows = 2, cols = 0
-2017-09-22 13:11:56,976 DEBUG  [main] Reading input data
-2017-09-22 13:11:57,009 DEBUG  [main] number of columns: 3
-2017-09-22 13:11:57,009 DEBUG  [main] data admin
-2017-09-22 13:11:57,009 DEBUG  [main] data rb085b
-2017-09-22 13:11:57,010 DEBUG  [main] data Control Panel - test - Administration
-2017-09-22 13:11:57,010 DEBUG  [main] number of columns: 3
-2017-09-22 13:11:57,010 DEBUG  [main] data admin2
-2017-09-22 13:11:57,010 DEBUG  [main] data rb085b
-2017-09-22 13:11:57,011 DEBUG  [main] data Control Panel - Error
-2017-09-22 13:17:07,771 DEBUG  [main] Reading input data
-2017-09-22 13:17:07,832 DEBUG  [main] number of columns: 3
-2017-09-22 13:17:07,833 DEBUG  [main] data admin
-2017-09-22 13:17:07,833 DEBUG  [main] data rb085b
-2017-09-22 13:17:07,833 DEBUG  [main] data Control Panel - test - Administration
-2017-09-22 13:17:07,833 DEBUG  [main] number of columns: 3
-2017-09-22 13:17:07,834 DEBUG  [main] data admin2
-2017-09-22 13:17:07,834 DEBUG  [main] data rb085b
-2017-09-22 13:17:07,834 DEBUG  [main] data test - Administration
-2017-09-22 13:21:26,678 DEBUG  [main] Reading input data
-2017-09-22 13:21:26,734 DEBUG  [main] number of columns: 3
-2017-09-22 13:21:26,736 DEBUG  [main] data admin
-2017-09-22 13:21:26,736 DEBUG  [main] data rb085b
-2017-09-22 13:21:26,737 DEBUG  [main] data Control Panel - test - Administration
-2017-09-22 13:21:26,737 DEBUG  [main] number of columns: 3
-2017-09-22 13:21:26,738 DEBUG  [main] data admin2
-2017-09-22 13:21:26,738 DEBUG  [main] data rb085b
-2017-09-22 13:21:26,738 DEBUG  [main] data test - Administration
-2017-09-22 13:44:11,093 DEBUG  [main] Reading input data
-2017-09-22 13:44:11,135 DEBUG  [main] number of columns: 3
-2017-09-22 13:44:11,135 DEBUG  [main] data admin2
-2017-09-22 13:44:11,136 DEBUG  [main] data rb085b
-2017-09-22 13:44:11,136 DEBUG  [main] data test - Administration
-2017-09-22 13:45:20,520 DEBUG  [main] Reading input data
-2017-09-22 13:45:20,558 DEBUG  [main] number of columns: 3
-2017-09-22 13:45:20,559 DEBUG  [main] data admin2
-2017-09-22 13:45:20,559 DEBUG  [main] data rb085b
-2017-09-22 13:45:20,559 DEBUG  [main] data test - Administration
-2017-09-22 13:45:20,560 DEBUG  [main] number of columns: 3
-2017-09-22 13:45:20,560 DEBUG  [main] data admin
-2017-09-22 13:45:20,560 DEBUG  [main] data rb085b
-2017-09-22 13:45:20,560 DEBUG  [main] data Control Panel - test - Administration
+2017-10-03 14:53:30,926 DEBUG  [main] Reading input data
+2017-10-03 14:57:34,154 DEBUG  [main] Reading input data
+2017-10-03 15:09:07,315 DEBUG  [main] Generating  data
+2017-10-03 15:09:07,347 DEBUG  [main] Reading input data
+2017-10-03 15:17:27,718 DEBUG  [main] Reading input data
+2017-10-03 15:17:27,815 DEBUG  [main] Generating  data, creds: %s , %s
+2017-10-03 15:22:51,097 DEBUG  [main] Reading input data
+2017-10-03 15:22:51,172 DEBUG  [main] username = myuser
+2017-10-03 15:22:51,180 DEBUG  [main] Generating  data, creds: %s , %s
+2017-10-03 15:25:57,608 DEBUG  [main] Reading input data
+2017-10-03 15:25:57,706 DEBUG  [main] username = myuser
+2017-10-03 15:25:57,707 DEBUG  [main] Generating  data, creds:  , 
+2017-10-03 15:43:16,072 DEBUG  [main] Reading input data
+2017-10-03 15:43:16,137 DEBUG  [main] username = myuser
+2017-10-03 15:43:16,138 DEBUG  [main] Generating  data, creds: myuser , mypass
+2017-10-03 15:43:16,144 DEBUG  [main] userName = %s
