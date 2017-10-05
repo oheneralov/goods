@@ -14,3 +14,11 @@
 2017-10-03 15:43:16,137 DEBUG  [main] username = myuser
 2017-10-03 15:43:16,138 DEBUG  [main] Generating  data, creds: myuser , mypass
 2017-10-03 15:43:16,144 DEBUG  [main] userName = %s
+2017-10-05 14:32:11,813 DEBUG  [main] Reading input data
+2017-10-05 14:32:11,997 DEBUG  [main] username = myuser
+2017-10-05 14:32:11,998 DEBUG  [main] Generating  data, creds: myuser , mypass
+2017-10-05 14:32:12,005 DEBUG  [main] userName = %s
+2017-10-05 15:54:27,276 DEBUG  [main] Reading input data
+2017-10-05 15:54:27,628 DEBUG  [main] username = myuser
+2017-10-05 15:54:27,629 DEBUG  [main] Generating  data, creds: myuser , mypass
+2017-10-05 15:54:27,637 DEBUG  [main] userName = %s

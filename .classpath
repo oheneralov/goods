@@ -11,13 +11,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="resource"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/alex/training/apache-log4j-2.9.0-bin/apache-log4j-2.9.0-bin/log4j-api-2.9.0.jar"/>
-	<classpathentry kind="lib" path="C:/alex/training/apache-log4j-2.9.0-bin/apache-log4j-2.9.0-bin/log4j-core-2.9.0.jar"/>
-	<classpathentry kind="lib" path="C:/alex/training/java/db/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar"/>
+	<classpathentry kind="lib" path="C:/alex/training/java/goods/resource/log4j-api-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/alex/training/java/goods/resource/log4j-core-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/alex/training/java/goods/resource/mysql-connector-java-5.1.44-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

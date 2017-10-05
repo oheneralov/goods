@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32265" started-at="2017-10-03T12:43:04Z" finished-at="2017-10-03T12:43:36Z">
+  <suite name="Suite" duration-ms="35551" started-at="2017-10-05T12:54:09Z" finished-at="2017-10-05T12:54:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32265" started-at="2017-10-03T12:43:04Z" finished-at="2017-10-03T12:43:36Z">
+    <test name="Test" duration-ms="35551" started-at="2017-10-05T12:54:09Z" finished-at="2017-10-05T12:54:44Z">
       <class name="goods.Tests">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:goods.Tests@1bce4f0a]" name="SetUp" is-config="true" duration-ms="1360" started-at="2017-10-03T15:43:04Z" finished-at="2017-10-03T15:43:05Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:goods.Tests@33e5ccce]" name="SetUp" is-config="true" duration-ms="2811" started-at="2017-10-05T15:54:06Z" finished-at="2017-10-05T15:54:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:goods.Tests@1bce4f0a]" name="setUp" is-config="true" duration-ms="10558" started-at="2017-10-03T15:43:05Z" finished-at="2017-10-03T15:43:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goods.Tests@33e5ccce]" name="setUp" is-config="true" duration-ms="17965" started-at="2017-10-05T15:54:09Z" finished-at="2017-10-05T15:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAdministratorLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:goods.Tests@1bce4f0a]" name="testAdministratorLogin" duration-ms="12126" started-at="2017-10-03T15:43:17Z" data-provider="testData" finished-at="2017-10-03T15:43:29Z">
+        <test-method status="PASS" signature="testAdministratorLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:goods.Tests@33e5ccce]" name="testAdministratorLogin" duration-ms="10152" started-at="2017-10-05T15:54:29Z" data-provider="testData" finished-at="2017-10-05T15:54:39Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdministratorLogin -->
-        <test-method status="PASS" signature="testAdministratorLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:goods.Tests@1bce4f0a]" name="testAdministratorLogin" duration-ms="5316" started-at="2017-10-03T15:43:29Z" data-provider="testData" finished-at="2017-10-03T15:43:34Z">
+        <test-method status="PASS" signature="testAdministratorLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:goods.Tests@33e5ccce]" name="testAdministratorLogin" duration-ms="5156" started-at="2017-10-05T15:54:39Z" data-provider="testData" finished-at="2017-10-05T15:54:44Z">
           <params>
             <param index="0">
               <value>
@@ -57,11 +57,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdministratorLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:goods.Tests@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1426" started-at="2017-10-03T15:43:34Z" finished-at="2017-10-03T15:43:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:goods.Tests@33e5ccce]" name="tearDown" is-config="true" duration-ms="2326" started-at="2017-10-05T15:54:44Z" finished-at="2017-10-05T15:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- goods.Tests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

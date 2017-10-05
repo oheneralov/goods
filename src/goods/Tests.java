@@ -45,7 +45,7 @@ public class Tests {
 	private StringBuffer verificationErrors = new StringBuffer();
 	Logger log;
 
-	@BeforeTest
+	@BeforeSuite(alwaysRun = true)
 	public void SetUp() {
 		System.setProperty("log4j.configurationFile", "C:\\alex\\training\\java\\goods\\configuration.xml");
 		Logger log = LogManager.getRootLogger();
@@ -206,7 +206,7 @@ public class Tests {
 
 	}
 
-	@AfterTest
+	@AfterSuite
 	public void tearDown() {
 		// Close the browser
 		driver.quit();
